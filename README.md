@@ -42,6 +42,7 @@ Go to http://127.0.0.1:8000 in your web browser to start uploading images.
 #Project Structure
 
 myproject/
+
 │
 ├── myproject/
 │   ├── settings.py
@@ -54,7 +55,7 @@ myproject/
 │   ├── forms.py
 │   └── ...
 ├── media/
-│   └── images/  # Directory where uploaded images are stored
+│   └── images/
 ├── templates/
 │   └── upload.html
 ├── manage.py
