@@ -48,12 +48,17 @@ myproject/
 │   ├── settings.py
 │   ├── urls.py
 │   └── ...
+
+
 ├── myapp/
 │   ├── migrations/
 │   ├── models.py
 │   ├── views.py
 │   ├── forms.py
 │   └── ...
+
+
+
 ├── media/
 │   └── images/
 ├── templates/
