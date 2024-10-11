@@ -19,6 +19,47 @@ Pillow installed for handling images
 Installation
 Clone the repository
 git clone https://github.com/yourusername/django-image-uploader.git
+
 cd django-image-uploader
+
+Create a virtual environment (optional but recommended)
+
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+Install dependencies
+pip install -r requirements.txt
+
+Migrate the database
+python manage.py migrate
+
+Run the development server
+python manage.py runserver
+
+Access the application
+Go to http://127.0.0.1:8000 in your web browser to start uploading images.
+
+#Project Structure
+
+myproject/
+│
+├── myproject/
+│   ├── settings.py
+│   ├── urls.py
+│   └── ...
+├── myapp/
+│   ├── migrations/
+│   ├── models.py
+│   ├── views.py
+│   ├── forms.py
+│   └── ...
+├── media/
+│   └── images/  # Directory where uploaded images are stored
+├── templates/
+│   └── upload.html
+├── manage.py
+└── README.md
+
+
 
 
